@@ -35,6 +35,7 @@ export class MyClass {
 
 	/**
 	 * This function is used to get the Parameter A value
+	 * @category Getter
 	 * @returns The value of Parameter A
 	 */
 	getParameterA(): string {
@@ -52,6 +53,7 @@ export class MyClass {
 
 	/**
 	 * This function is used to get the Parameter B value
+	 * @category Getter
 	 * @returns The value of Parameter B
 	 */
 	getParameterB(): number {
@@ -69,6 +71,7 @@ export class MyClass {
 
 	/**
 	 * This function is used to get the Parameter B value
+	 * @category Getter
 	 * @returns The value of Parameter B
 	 */
 	getParameterC(): boolean {
