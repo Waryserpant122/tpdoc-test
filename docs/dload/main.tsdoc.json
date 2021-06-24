@@ -1,0 +1,493 @@
+{
+	"id": 5,
+	"name": "tpdoc-test",
+	"kind": 0,
+	"kindString": "Project",
+	"flags": {},
+	"originalName": "",
+	"children": [
+		{
+			"id": 6,
+			"name": "MyClass",
+			"kind": 128,
+			"kindString": "Class",
+			"flags": {},
+			"children": [
+				{
+					"id": 7,
+					"name": "constructor",
+					"kind": 512,
+					"kindString": "Constructor",
+					"flags": {},
+					"signatures": [
+						{
+							"id": 8,
+							"name": "new MyClass",
+							"kind": 16384,
+							"kindString": "Constructor signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 9,
+									"name": "count",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "10"
+								},
+								{
+									"id": 10,
+									"name": "parameterA",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									},
+									"defaultValue": "\"Hello\""
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 6,
+								"name": "MyClass"
+							}
+						}
+					]
+				},
+				{
+					"id": 11,
+					"name": "count",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isPrivate": true
+					},
+					"comment": {
+						"shortText": "This is a private variable which keeps count"
+					},
+					"sources": [
+						{
+							"fileName": "main.ts",
+							"line": 3,
+							"character": 14
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 12,
+					"name": "parameterA",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isPublic": true
+					},
+					"comment": {
+						"shortText": "This is a string parameter A"
+					},
+					"sources": [
+						{
+							"fileName": "main.ts",
+							"line": 6,
+							"character": 18
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 13,
+					"name": "parameterB",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isPublic": true
+					},
+					"sources": [
+						{
+							"fileName": "main.ts",
+							"line": 7,
+							"character": 18
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					}
+				},
+				{
+					"id": 14,
+					"name": "parameterC",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {
+						"isPublic": true
+					},
+					"sources": [
+						{
+							"fileName": "main.ts",
+							"line": 8,
+							"character": 18
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "boolean"
+					}
+				},
+				{
+					"id": 15,
+					"name": "getCount",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "main.ts",
+							"line": 23,
+							"character": 9
+						}
+					],
+					"signatures": [
+						{
+							"id": 16,
+							"name": "getCount",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "This funciton is used to get the count of the Class that we have",
+								"returns": "The count of the class\n"
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					]
+				},
+				{
+					"id": 20,
+					"name": "getParameterA",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "main.ts",
+							"line": 40,
+							"character": 14
+						}
+					],
+					"signatures": [
+						{
+							"id": 21,
+							"name": "getParameterA",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "This function is used to get the Parameter A value",
+								"returns": "The value of Parameter A\n"
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					]
+				},
+				{
+					"id": 25,
+					"name": "getParameterB",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "main.ts",
+							"line": 57,
+							"character": 14
+						}
+					],
+					"signatures": [
+						{
+							"id": 26,
+							"name": "getParameterB",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "This function is used to get the Parameter B value",
+								"returns": "The value of Parameter B\n"
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					]
+				},
+				{
+					"id": 30,
+					"name": "getParameterC",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "main.ts",
+							"line": 74,
+							"character": 14
+						}
+					],
+					"signatures": [
+						{
+							"id": 31,
+							"name": "getParameterC",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "This function is used to get the Parameter B value",
+								"returns": "The value of Parameter B\n"
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						}
+					]
+				},
+				{
+					"id": 17,
+					"name": "setParameterA",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "main.ts",
+							"line": 32,
+							"character": 14
+						}
+					],
+					"signatures": [
+						{
+							"id": 18,
+							"name": "setParameterA",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "This function sets the Parameter A of the class"
+							},
+							"parameters": [
+								{
+									"id": 19,
+									"name": "inputParam",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "The value we need to set for parameter A\n"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 22,
+					"name": "setParameterB",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "main.ts",
+							"line": 49,
+							"character": 14
+						}
+					],
+					"signatures": [
+						{
+							"id": 23,
+							"name": "setParameterB",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "This function sets the Parameter B of the class"
+							},
+							"parameters": [
+								{
+									"id": 24,
+									"name": "inputParam",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "The value we need to set for parameter B\n"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				},
+				{
+					"id": 27,
+					"name": "setParameterC",
+					"kind": 2048,
+					"kindString": "Method",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "main.ts",
+							"line": 66,
+							"character": 14
+						}
+					],
+					"signatures": [
+						{
+							"id": 28,
+							"name": "setParameterC",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "This function sets the Parameter C of the class"
+							},
+							"parameters": [
+								{
+									"id": 29,
+									"name": "inputParam",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "The value we need to set for parameter C\n"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Constructors",
+					"kind": 512,
+					"children": [
+						7
+					]
+				},
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						11,
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"title": "Methods",
+					"kind": 2048,
+					"children": [
+						15,
+						20,
+						25,
+						30,
+						17,
+						22,
+						27
+					],
+					"categories": [
+						{
+							"title": "Getter",
+							"children": [
+								15
+							]
+						},
+						{
+							"title": "Other",
+							"children": [
+								20,
+								25,
+								30
+							]
+						},
+						{
+							"title": "Setter",
+							"children": [
+								17,
+								22,
+								27
+							]
+						}
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "main.ts",
+					"line": 1,
+					"character": 20
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Classes",
+			"kind": 128,
+			"children": [
+				6
+			]
+		}
+	],
+	"sources": [
+		{
+			"fileName": "main.ts",
+			"line": 1,
+			"character": 0
+		}
+	]
+}

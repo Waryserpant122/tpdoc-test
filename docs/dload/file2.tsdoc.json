@@ -1,0 +1,119 @@
+{
+	"id": 0,
+	"name": "tpdoc-test",
+	"kind": 0,
+	"kindString": "Project",
+	"flags": {},
+	"originalName": "",
+	"children": [
+		{
+			"id": 1,
+			"name": "ObjectArray",
+			"kind": 256,
+			"kindString": "Interface",
+			"flags": {},
+			"children": [
+				{
+					"id": 4,
+					"name": "arrayProp",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "This is an array of all the different CustomObjects"
+					},
+					"sources": [
+						{
+							"fileName": "file2.ts",
+							"line": 28,
+							"character": 10
+						}
+					],
+					"type": {
+						"type": "array",
+						"elementType": {
+							"type": "reference",
+							"name": "CustomObject"
+						}
+					}
+				},
+				{
+					"id": 2,
+					"name": "id",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "Id of the Object Array"
+					},
+					"sources": [
+						{
+							"fileName": "file2.ts",
+							"line": 24,
+							"character": 3
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				},
+				{
+					"id": 3,
+					"name": "name",
+					"kind": 1024,
+					"kindString": "Property",
+					"flags": {},
+					"comment": {
+						"shortText": "Name of the object Array"
+					},
+					"sources": [
+						{
+							"fileName": "file2.ts",
+							"line": 26,
+							"character": 5
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Properties",
+					"kind": 1024,
+					"children": [
+						4,
+						2,
+						3
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "file2.ts",
+					"line": 22,
+					"character": 28
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Interfaces",
+			"kind": 256,
+			"children": [
+				1
+			]
+		}
+	],
+	"sources": [
+		{
+			"fileName": "file2.ts",
+			"line": 1,
+			"character": 0
+		}
+	]
+}
