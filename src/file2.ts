@@ -1,18 +1,4 @@
-/**
- * Responsible to create the Object Array
- *
- * **Warning: if you dont specify an id it will always take value 1
- *
- * Basic usage example:
- *
- * ```ts
- *  import {ObjectArray} from "./file2";
- *  const testObjectArray : ObjectArray = createObjectArray(name="10",id="2");
- *  console.log(testObjectArray);
- * ```
- */
-
-interface CustomObject {
+export interface CustomObject {
 	/** The String Parameter */
 	param1: string;
 	/** The Number Parameter */
