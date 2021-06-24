@@ -39,7 +39,7 @@ export interface ObjectArray {
  * @returns The object array with custom object data;
  */
 
-function createObjectArray(
+export function createObjectArray(
 	name: string,
 	id: string = "1"
 ): ObjectArray {
